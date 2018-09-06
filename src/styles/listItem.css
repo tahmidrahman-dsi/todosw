@@ -1,0 +1,22 @@
+.list-item-body {
+  background-color: white;
+  padding: 2px;
+  flex-direction: "row";
+  justify-content: "space-between";
+  border-width: 1px;
+  align-items: flex-start;
+  transition: transform 500ms ease-in-out;
+}
+
+.seperator {
+  flex-direction: 1;
+  height: 2px;
+  background-color: #D3D3D3;
+}
+
+.list-item-text {
+  text-align: left;
+  font-size: 18px;
+  padding: 10px 10px 5px 5px;
+  color: black;
+}

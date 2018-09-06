@@ -1,0 +1,41 @@
+.stage {
+  background: #eaeaed;
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
+}
+
+.ball-hover {
+  animation: slide 1s linear;
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+.ball {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left:50%;
+    top: 100px;
+    bottom: 0;
+  }
+  100% {
+    left: 100%;
+    right:0;
+    top: 0;
+    bottom: 100px;
+  }
+}

@@ -1,0 +1,45 @@
+.node-inactivated {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #D3D3D3;
+  color: black;
+  border-width: 0 4px;
+  border: solid #000;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  margin: 20px 20px 20px 20px;
+}
+
+ .node-activated {
+   height: 100px;
+   width: 100px;
+   border-radius: 5px;
+   background-color: black;
+   color: white;
+   border-width: 0 4px;
+   border: solid #000;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   position: relative;
+   margin: 20px 20px 20px 20px;
+}
+
+.first-node {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.node-title {
+  font-size: 15px;
+}
+
+.child-container {
+  display:flex;
+  flex-grow: 1;
+  align-items: center;
+
+}

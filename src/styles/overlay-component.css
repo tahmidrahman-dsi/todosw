@@ -1,0 +1,20 @@
+.container {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.8;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  webkit-transition: opacity .25s ease-in-out;
+}
+
+.container:hover {
+  opacity:0;
+}
+
+h1 {
+  color: white
+}

@@ -1,0 +1,31 @@
+.container-flux {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree-container {
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.dispatcher-button-container {
+  padding: 10px;
+  flex-direction: row;
+}
